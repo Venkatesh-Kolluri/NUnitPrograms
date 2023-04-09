@@ -8,7 +8,7 @@ namespace NUnitProgramming
 {
     internal class Payment
     {
-      /*  public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             double P;
             Console.WriteLine("Enter the Principal Amount: ");
@@ -26,7 +26,7 @@ namespace NUnitProgramming
             Console.WriteLine("The Monthly Payment amount is: "+result);
 
             
-        }*/
+        }
         public static double monthlyPayment(double P,double Y,double R)
         {
             double n = 12 * Y ;
