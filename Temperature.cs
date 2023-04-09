@@ -2,7 +2,7 @@
 {
     internal class Temperature
     {
-      /*  static void Main(string[] args)
+        static void Main(string[] args)
         {
             int c;
             Console.WriteLine("Enter the degree celicius value: ");
@@ -24,7 +24,7 @@
 
             }
            
-        }*/
+        }
         public static int degreeConversion(int c)
         {
             int fahrenheit =( (c * 9) / 5) + 32;
